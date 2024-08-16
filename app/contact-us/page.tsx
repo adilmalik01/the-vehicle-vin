@@ -1,9 +1,13 @@
+import Navbar from "../components/Navbar";
+
 const DealerProgram = () => {
-    return ( <div>
+    return ( <>
      
+    < Navbar/>
      <h1>DealerProgram</h1>
+
     
-    </div> );
+    </> );
 }
 
  
