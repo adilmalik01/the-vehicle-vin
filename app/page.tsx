@@ -9,6 +9,7 @@ import {
 import Card from "./components/Card";
 import Navbar from "./components/Navbar";
 import AccordionUsage from "./components/accorddin";
+import Footer from "./components/footer";
 
 
 export default function Home() {
@@ -294,23 +295,23 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full h-screen flex justify-center items-center ">
-        <div className=" h-[60vh]">
+      <section className="w-full min-h-screen flex  justify-center items-center ">
+        <div className=" h-[60vh] w-[62%] ">
           <div className="flex  justify-center flex-col text-center items-center  py-10 h-[30%]">
-            <h1 className="text-[37px] max-md:text-[4.2vw] leading-tight font">
-              What You Will Find in a Vin Report
+            <h1 className="text-[32px] max-md:text-[4.2vw] leading-tight font">
+            FREQUENTLY ASKED QUESTIONS
             </h1>
             <p className="font-extrabold flex  justify-center text-center items-center">
               . . . ______
             </p>
           </div>
-          <div className="gap-5">
+          <div className="gap-5 min-h">
             <AccordionUsage />
           </div>
         </div>
       </section>
 
-
+    <Footer />
 
 
 
