@@ -20,12 +20,56 @@
   font-style: normal;
 } */
 
-.font{
+.font {
   font-family: "Outfit", sans-serif;
   font-weight: 600;
 }
 
-.mainFont{
+.mainFont {
   font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+
+.lightFont {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+}
+
+
+.bgOverlay {
+  background: url("/bgOverlay.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  width: 50%;
+}
+
+
+
+.head {
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.body p {
+  color: #807c7c;
   font-weight: 600;
+  text-align: center;
+  font-size: 17px;
+  padding: 7px;
+}
+
+.card {
+  border: 1px solid transparent;
+  transition: all 0.3s linear;
+  padding: 2px;
+  cursor: pointer;
+}
+
+.card:hover {
+  border: 1px solid #387de4;
+}
+
+.card:hover .head {
+  color: #007aff;
 }
