@@ -6,29 +6,29 @@ const VinCheck = () => {
   return (
     <div>
       <Navbar />
-      <section className="flex justify-center px-[100px] max-md:px-[10px]">
-        <div className="container  min-h-screen mx-auto">
-          <div className="leading-[70px]">
-            <h1 className="text-[65px] vinCheckFont">Vin check</h1>
-            <h1 className="text-[54px] vinCheckFont ">
+      <section className="flex justify-center px-[150px] max-xl:p-[20px] max-lg:p-[20px] max-md:px-[20px]">
+        <div className="container  min-h-screen mx-auto  ">
+          <div className="leading-[70px] max-md:leading-[50px]">
+            <h1 className="text-[60px] max-md:text-[48px] vinCheckFont">Vin check</h1>
+            <h1 className="text-[47px]  max-md:text-[30px] vinCheckFont ">
               What is a VIN Check and Why is it Important?
             </h1>
           </div>
-          <p className="footerFont text-[#414141] mt-2 text-[18px]">
+          <p className="footerFont text-[#414141] mt-2 text-[15px]">
             A VIN check is a process that involves using a vehicle’s unique Vehicle Identification Number
             (VIN) as a key to accessing and retrieving various types of data about the vehicle.
             The 17-character alphanumeric code is assigned to every motor vehicle, including cars,
             trucks, motorcycles, and recreational vehicles. It is assigned to each vehicle by a car
             manufacturer upon production so that no two cars can have the same VIN. Using the VIN number,
-            individuals and businesses can access a wide range of vehicle data that are useful in making
+            individuals and businesses can access awide range of vehicle data that are useful in making
             informed decisions when buying or selling a used car, or maintaining a vehicle. There are different
             ways the term is used to refer to checking vehicle data.
           </p>
-          <h1 className="text-[54px] onlyFont font-bold mt-2">
+          <h1 className="text-[50px] max-md:text-[30px]  py-2 onlyFont font-bold mt-2">
             Different Versions of VIN Check
           </h1>
 
-          <p className="footerFont text-[#414141] mt-2 text-[18px]">
+          <p className="footerFont text-[#414141] mt-2 text-[15px]">
             Basic VIN Check refers to a simple lookup of the VIN to retrieve basic information about the vehicle,
             such as the make, model, year of production, engine type, and manufacturing plant. It is a quick
             way to confirm the basic details of a used car without going into its complete history.Stolen Vehicle
@@ -48,20 +48,20 @@ const VinCheck = () => {
             information. In some cases, it is used as a marketing tool to entice a consumer who wants to buy a
             used car to upgrade to a paid vehicle history report.Vehicle History Report is generated through an
             extensive check that involves tracing the vehicle’s past, from its production to its current condition
-            under the most recent owner. A car report includes information on accidents, title status, ownership
+            under the most recent owner. A car repot includes information on accidents, title status, ownership
             history, service records, recalls, and more.
           </p>
 
-          <h1 className="text-[54px] onlyFont font-bold mt-2">
+          <h1 className="text-[50px] max-md:text-[30px]  py-2 onlyFont font-bold mt-2">
             Different Versions of VIN Check
           </h1>
 
-          <p className="footerFont text-[#414141] mt-2 text-[18px]">
+          <p className="footerFont text-[#414141] mt-2 text-[15px]">
             Your vehicle’s unique Vehicle Identification Number (VIN) is a 17-digit number that can be found on the title document, the vehicle registration, and on the insurance policy. The VIN can also be located at the following locations on the car itself:
           </p>
 
           <div className=" mt-5">
-            <ul className="list-disc	footerFont text-[#414141] text-[17px]">
+            <ul className="list-disc px-2	footerFont text-[#414141] text-[17px]">
               <li>On the driver’s side dashboard
                 <br />
                 <span className="ml-2">(viewable through the windshield)</span>
@@ -79,19 +79,19 @@ const VinCheck = () => {
               alt="logo"
               width={250}
               height={100}
-            />
+           />
           </div>
 
 
-          <h1 className="text-[54px] onlyFont font-bold mt-2">
+          <h1 className="text-[50px] max-md:text-[30px]  py-2 onlyFont font-bold mt-2">
             Why should I run a VIN check?
           </h1>
 
-          <p className="footerFont text-[#414141] mt-2 text-[18px]">
+          <p className="footerFont text-[#414141] mt-2 text-[15px]">
             Outside of our homes, a car is often one of the most expensive assets we purchase. As a vehicle buyer, you can reduce your risk of hidden problems and intentional fraud. As a vehicle seller, you can help increase confidence for potential buyers by proving that your car has a clean history — and being upfront about defects if any are found. Most people run a VIN check to:
           </p>
 
-          <ul className="list-disc mt-5	footerFont text-[#414141] text-[17px]">
+          <ul className="list-disc mt-5 px-2	footerFont text-[#414141] text-[17px]">
             <li>Understand a vehicle’s past ownership history</li>
             <li>Check for hidden issues or prior damage
               <br />
@@ -105,15 +105,15 @@ const VinCheck = () => {
             className="mt-2"
             src="/Flooded-car.png"
             alt="logo"
-            width={650}
+          width={650}
             height={100}
           />
 
-          <h1 className="text-[54px] onlyFont font-bold mt-2">
+          <h1 className="text-[50px] max-md:text-[30px]  py-2 onlyFont font-bold mt-2">
             The Difference VinAudit Vehicle History Reports Make
           </h1>
 
-          <p className="footerFont text-[#414141] mt-2 text-[17px]">
+          <p className="footerFont text-[#414141] mt-2 text-[15px]">
             Vehicle Vin Checkup has made a significant impact in the vehicle industry by offering detailed vehicle history information that goes beyond what most VIN check services provide. Here are the key differences that set vehicle Vin Checkup apart from standard VIN-based services and car report providers:
             <br /><br />
             <span className="vinCheckFont">Comprehensive Vehicle History Reports:</span> While basic VIN checks often provide limited information, vehicle Vin Checkup offers full vehicle history reports. These reports delve into various aspects of a vehicle’s background, including title information, accident records, odometer readings, salvage and insurance history, recall information, and more.

@@ -13,38 +13,38 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white border-b sticky top-0 z-[9999999999]">
-      <div className="max-w-7xl m-auto px-9 sm:px-6 lg:px-6">
-        <div className="flex items-center justify-between px-12 max-lg:h-[70px]  h-[90px]">
+      <div className="max-w-7xl m-auto   sm:px-6 lg:px-6">
+        <div className="flex items-center justify-between max-md:px-[40px] px-[120px] max-lg:h-[70px]  h-[90px]">
           <div className="flex justify-center">
             <div className="flex-shrink-0">
               <a href="/">
-                <Image src="/logo.png" alt="logo" width={170} height={80} />
+                <Image src="/logo.png" alt="logo" width={140} height={80} />
               </a>
             </div>
           </div>
 
-          <div className="hidden lg:flex items-center  space-x-4 text-black/80">
+          <div className="hidden lg:flex items-center  space-x-3 text-black/80">
             <a
               href="/vin-check"
-              className="border-b-[3px] transition-all duration-700 text-[16px] tracking-tight font-semibold border-transparent hover:border-black active:border-black px-3 py-2"
+              className="border-b-[3px] transition-all duration-700 text-[14px] tracking-tight font-semibold border-transparent hover:border-black active:border-black px-3 py-2"
             >
               Vin check
             </a>
             <a
               href="/dealer-program"
-              className="border-b-[3px] transition-all duration-700 text-[16px] tracking-tight font-semibold border-transparent hover:border-black px-3 py-2"
+              className="border-b-[3px] transition-all duration-700 text-[14px] tracking-tight font-semibold border-transparent hover:border-black px-3 py-2"
             >
               Dealer Program
             </a>
             <a
               href="/data-product"
-              className="border-b-[3px] transition-all duration-700 text-[16px] tracking-tight font-semibold border-transparent hover:border-black px-3 py-2"
+              className="border-b-[3px] transition-all duration-700 text-[14px] tracking-tight font-semibold border-transparent hover:border-black px-3 py-2"
             >
               Data product
             </a>
             <a
               href="/contact-us"
-              className="border-b-[3px] transition-all duration-700 text-[16px] tracking-tight font-semibold border-transparent hover:border-black px-3 py-2"
+              className="border-b-[3px] transition-all duration-700 text-[14px] tracking-tight font-semibold border-transparent hover:border-black px-3 py-2"
             >
               Contact us
             </a>

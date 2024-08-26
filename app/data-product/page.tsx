@@ -9,7 +9,7 @@ const DataProduct = () => {
       < Navbar />
       <section className="px-[100px] max-md:px-[20px]">
         <div className="container   mx-auto">
-          <h1 className="text-[65px] onlyFont font-bold">Data Product</h1>
+          <h1 className="text-[65px] onlyFont font-bold max-md:text-[48px] ">Data Product</h1>
           <div className="flex items-center max-md:flex-col  max-md:gap-5  ">
 
             <div className=" flex flex-col gap-4 ">
