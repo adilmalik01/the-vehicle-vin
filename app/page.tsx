@@ -80,7 +80,7 @@ export default function Home() {
       </div>
 
       <section className="  z-10 relative  flex justify-between flex-col  items-center h-[54vh] w-full ">
-        <div className="w-[830px] mt-[-70px]  rounded-3xl h-full bg-white shadow-lg">
+        <div className="w-[65%] mt-[-70px]  rounded-3xl h-full bg-white shadow-lg">
           <div className="flex  justify-center flex-col text-center items-center py-5">
             <h1 className="text-[37px] max-md:text-[4.2vw] leading-tight font">
               Get Vehicle History
@@ -109,9 +109,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full h-[30vh]  flex justify-evenly items-center bg-white">
+      <section className="w-full min-h-[30vh] sm:gap-5  min-sm:gap-5  grid  lg:grid-cols-4 md:grid-cols-2 md:gap-5 sm:grid-cols-1   place-items-center bg-white ">
         <Image
-          className="object-cover"
+          className="object-cover "
           src="/first-section-images/ekomi-logo.png"
           alt="logo"
           width={110}
@@ -299,7 +299,7 @@ export default function Home() {
         <div className=" h-[60vh] w-[62%] ">
           <div className="flex  justify-center flex-col text-center items-center  py-10 h-[30%]">
             <h1 className="text-[32px] max-md:text-[4.2vw] leading-tight font">
-            FREQUENTLY ASKED QUESTIONS
+              FREQUENTLY ASKED QUESTIONS
             </h1>
             <p className="font-extrabold flex  justify-center text-center items-center">
               . . . ______
@@ -311,7 +311,7 @@ export default function Home() {
         </div>
       </section>
 
-    <Footer />
+      <Footer />
 
 
 
