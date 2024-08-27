@@ -13,7 +13,7 @@ export default function Footer() {
         <div>
           <h4 className="text-white font-light	 text-[18px]">THE VEHICLEVIN</h4>
           <p className="mt-2 text-white/75">
-            Unlock the history of any vehicle with "TheVehicleVin," offering
+            Unlock the history of any vehicle with TheVehicleVin, offering
             transparent and reliable VIN lookup services for buyers and sellers
             alike.
           </p>

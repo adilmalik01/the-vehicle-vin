@@ -104,7 +104,7 @@ export default function CustomAccordion() {
         </AccordionSummary>
         <AccordionDetails style={{ padding: "16px" }}> {/* Adjusted padding for better content display */}
           <Typography className="font text-[15px]">
-            "TheVehicleVin.ca offers a cost-effective alternative to Carfax,
+          TheVehicleVin.ca offers a cost-effective alternative to Carfax,
             with a comprehensive vehicle history report priced at one-third or
             $29 less. TheVehicleVin is recommended for those prioritizing
             vehicle registration, status, and odometer readings, while Carfax
@@ -112,7 +112,7 @@ export default function CustomAccordion() {
             cost-efficient screening of a large number of cars, using both
             TheVehicleVin and Carfax reports is suggested. TheVehicleVin can be
             employed for initial pre-screening, and Carfax can be utilized for
-            detailed validation of top choices."
+            detailed validation of top choices.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -137,7 +137,7 @@ export default function CustomAccordion() {
         </AccordionSummary>
         <AccordionDetails style={{ padding: "16px" }}> {/* Adjusted padding for better content display */}
           <Typography className="font text-[15px]">
-            "TheVehicleVin Canada is a comprehensive VIN check service
+          TheVehicleVin Canada is a comprehensive VIN check service
             specifically designed for Canadian-registered vehicles. It provides
             a VIN search to generate a detailed report on the history of a
             vehicle and even US historical records if available. While a VIN
@@ -145,7 +145,7 @@ export default function CustomAccordion() {
             Canada goes further by offering full car history reports. These
             reports include crucial details such as title history, accident
             records, odometer readings, and more, making it a more comprehensive
-            tool for assessing the overall history and condition of a vehicle."
+            tool for assessing the overall history and condition of a vehicle.
           </Typography>
         </AccordionDetails>
       </Accordion>
